@@ -44,7 +44,7 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "input_artifact": "raw_data.parquet:latest",
-                "artifact_name": "processed_data.csv",
+                "artifact_name": "preprocessed_data.csv",
                 "artifact_type": "processed_data",
                 "artifact_description": "Data with processing applied"
             },
